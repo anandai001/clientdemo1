@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Demo Page for Damarathree</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #faf9fe;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #6b4dc5;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #7b65d9;
+      color: white;
+      padding: 18px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #5f4acb;
+    }
+    .countdown {
+      font-size: 18px;
+      color: #d94f4f;
+      font-weight: 600;
+    }
+    .note {
+      font-size: 14px;
+      color: #666;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <h1>This page is made just for you, Damarathree</h1>
+      <p>You're about to experience a short interactive demonstration of how our AI Assistants can be used to deeply personalise engagement on your own wellness page and guide visitors to say YES to your service.</p>
+    </div>
+
+    <div class="section">
+      <div class="countdown" id="countdown-timer"></div>
+    </div>
+
+    <div class="section">
+      <div style="max-width: 100%; padding: 1rem;">
+        <iframe 
+          src="https://app.fastbots.ai/embed/cm4ibzh0p08mvsvbl7c9d0end" 
+          allow="microphone; camera"
+          style="width: 100%; height: 80vh; border: none; border-radius: 25px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <p><strong>Click COPY and paste the summary below into the chat box when asked.</strong><br>
+      <span class="note">Please do not paste it beforehand ? the assistant may not be fully ready, and it could cause a glitch.</span></p>
+
+      <div style="border: 1px solid #e0dcf7; border-radius: 12px; background: #f5f3fd; padding: 10px 12px; position: relative; font-size: 14px; line-height: 1.5; color: #333; max-height: 120px; overflow-y: auto; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);">
+        <pre id="displayText" style="white-space: pre-wrap; word-wrap: break-word; margin: 0;">**THEM:**  
+Damara?Knorr is a spiritual entrepreneur, intuitive mentor, and sacred?health advocate. Her background spans over 20 years of building businesses, raising a family, and experiencing what she calls ?soul remembering.? She emphasizes purity, sovereignty, coherence, and embodiment.
+
+**THEIR CLIENTS:**  
+Women and conscious leaders seeking alignment with their true selves?those looking to reclaim power, energy, health, wealth, and legacy from a place of authenticity and resonance.
+
+**SOLUTIONS:**  
+She offers a blend of soul?led coaching, spiritual transmission, practical wellness guidance, and mentorship. Services include hormone balancing, stem?cell activation using plant?based modalities, and resonance coaching to align energy and life/business blueprints.
+
+**UNIQUE APPROACH:**  
+Her method uniquely fuses grounded business mentorship with spiritual embodiment. She speaks of leadership rooted in truth?not title?and prioritises holistic health as a birthright. Her style blends energetic alignment with practical strategies.
+
+**RESULTS:**  
+Clients are guided to reclaim their sovereignty and live in coherence with their design. They can expect alignment of energy, sustainable health, empowered leadership, and legacy creation on their own terms.
+
+**THEIR TONE:**  
+Warm, loving, spiritual yet grounded. Damara combines soft, soulful language (?Welcome love?,? ?soul remembering?) with clear mentorship and strategy?inviting yet rooted in purposeful transformation.</pre>
+        <textarea id="copyText" style="position: absolute; left: -9999px;">**THEM:**  
+Damara?Knorr is a spiritual entrepreneur, intuitive mentor, and sacred?health advocate. Her background spans over 20 years of building businesses, raising a family, and experiencing what she calls ?soul remembering.? She emphasizes purity, sovereignty, coherence, and embodiment.
+
+**THEIR CLIENTS:**  
+Women and conscious leaders seeking alignment with their true selves?those looking to reclaim power, energy, health, wealth, and legacy from a place of authenticity and resonance.
+
+**SOLUTIONS:**  
+She offers a blend of soul?led coaching, spiritual transmission, practical wellness guidance, and mentorship. Services include hormone balancing, stem?cell activation using plant?based modalities, and resonance coaching to align energy and life/business blueprints.
+
+**UNIQUE APPROACH:**  
+Her method uniquely fuses grounded business mentorship with spiritual embodiment. She speaks of leadership rooted in truth?not title?and prioritises holistic health as a birthright. Her style blends energetic alignment with practical strategies.
+
+**RESULTS:**  
+Clients are guided to reclaim their sovereignty and live in coherence with their design. They can expect alignment of energy, sustainable health, empowered leadership, and legacy creation on their own terms.
+
+**THEIR TONE:**  
+Warm, loving, spiritual yet grounded. Damara combines soft, soulful language (?Welcome love?,? ?soul remembering?) with clear mentorship and strategy?inviting yet rooted in purposeful transformation.</textarea>
+        <button onclick="copyToClipboard(event)" title="Click to copy your summary"
+          style="position: absolute; top: 10px; right: 10px; padding: 4px 12px; background-color: #7b65d9; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500;">
+          ? Copy
+        </button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p><strong>A reminder on how to use the assistant in case you get stuck or missed the instructions:</strong></p>
+      <p>To get the smoothest experience, just follow the assistant?s lead and reply naturally. If something seems off, try refreshing or reloading. This assistant is just a glimpse of what?s possible ? you can explore its full power by clicking "Apply for Full Demo" below.</p>
+
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-top: 30px;">
+        <iframe src="https://www.loom.com/embed/1b2c79fa5ca64e17b5cd4399fd75f89e?sid=damarathree" frameborder="0" allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 90%; height: 90%;">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="section" style="text-align: center;">
+      <a class="button" href="https://ai-services-for-healers.com/application">Apply for Full Demo</a>
+      <p class="note" style="margin-top: 1rem; max-width: 600px; margin-inline: auto;">
+        This goes beyond a demo. You?ll explore more comprehensive training, automation of followups, smarter content creation, and personalised support for scaling your business and impact.<br><br>
+        <strong>Limited availability for those who are serious about growing ? not just browsing ?cool AI?, but truly ready to lead and shine.</strong>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function copyToClipboard(event) {
+      const textArea = document.getElementById("copyText");
+      textArea.select();
+      textArea.setSelectionRange(0, 99999);
+
+      const btn = event.currentTarget;
+      try {
+        document.execCommand('copy');
+        const originalText = btn.innerText;
+        const originalBg = btn.style.backgroundColor;
+        btn.innerText = "Copied!";
+        btn.style.backgroundColor = "#4caf50";
+        setTimeout(() => {
+          btn.innerText = originalText;
+          btn.style.backgroundColor = originalBg;
+        }, 1500);
+      } catch (err) {
+        alert('Copy failed. Please try manually.');
+      }
+    }
+
+    const countdownDate = new Date("2025-08-10T12:00:00+01:00").getTime();
+    const countdownEl = document.getElementById("countdown-timer");
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      if (distance < 0) {
+        clearInterval(interval);
+        countdownEl.innerHTML = "? This demo has now expired.";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      countdownEl.innerHTML = `This page will expire in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
