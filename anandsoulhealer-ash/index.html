@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Demo Page for Anandsoulhealer ASH</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #faf9fe;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #6b4dc5;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #7b65d9;
+      color: white;
+      padding: 18px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #5f4acb;
+    }
+    .countdown {
+      font-size: 18px;
+      color: #d94f4f;
+      font-weight: 600;
+    }
+    .note {
+      font-size: 14px;
+      color: #666;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <h1>This page is made just for you, Anandsoulhealer ASH</h1>
+      <p>You're about to experience a short interactive demonstration of how our AI Assistants can be used to deeply personalise engagement on your own wellness page and guide visitors to say YES to your service.</p>
+    </div>
+
+    <div class="section">
+      <div class="countdown" id="countdown-timer"></div>
+    </div>
+
+    <div class="section">
+      <div style="max-width: 100%; padding: 1rem;">
+        <iframe 
+          src="https://app.fastbots.ai/embed/cm4ibzh0p08mvsvbl7c9d0end" 
+          allow="microphone; camera"
+          style="width: 100%; height: 80vh; border: none; border-radius: 25px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <p><strong>Click COPY and paste the summary below into the chat box when asked.</strong><br>
+      <span class="note">Please do not paste it beforehand as the assistant may not be fully ready, and it could cause a glitch.</span></p>
+
+      <div style="border: 1px solid #e0dcf7; border-radius: 12px; background: #f5f3fd; padding: 10px 12px; position: relative; font-size: 14px; line-height: 1.5; color: #333; max-height: 120px; overflow-y: auto; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);">
+        <pre id="displayText" style="white-space: pre-wrap; word-wrap: break-word; margin: 0;">**THEM:**
+Anand (meaning &#34;happiness&#34; or &#34;bliss&#34;) is a certified Soul Healing Practitioner and Tao Healing communicator under Master Sha?s line. Having overcome trauma, self-doubt, and disconnection, he now channels higher?dimensional light to help others heal on soul?level.
+
+**THEIR CLIENTS:**
+Individuals facing blocks in health (physical, mental, emotional, spiritual), relationships, finances, or overall life satisfaction, who feel stuck despite previous efforts.
+
+**SOLUTIONS:**
+- **Soul Healing Blessings**: 30-minute sessions (online/in-person near Harrow) to clear root-cause negative soul patterns, with guidance for self-practice.
+- **Soul Light Connection Classes**: Teaching techniques to stay aligned with soul-light and upliftment.
+- **Soul Readings**: 15?30-minute soul-history consultations to receive clarity and healing guidance from high-level light beings.
+- **Free Digital Empowerment Companion**: A self-reflection coaching tool to raise awareness and prompt action.
+
+**UNIQUE APPROACH:**
+Works as a conduit for ?higher-dimensional light? from soul/spiritual realms (via Tao Healing modalities and lineage from Master Sha). Blends channelled spiritual wisdom with self-empowerment practices.
+
+**RESULTS:**
+Clients report relief from fear, pain (emotional or physical), feeling lighter, peaceful, and empowered to take action; many describe transformative shifts in their lives.
+
+**THEIR TONE:**
+Warm, encouraging, spiritual, reflective, grounded in personal experience. Invites clients to ?taste? the transformation and start their journey from a place of light and possibility.
+</pre>
+        <textarea id="copyText" style="position: absolute; left: -9999px;">**THEM:**
+Anand (meaning &#34;happiness&#34; or &#34;bliss&#34;) is a certified Soul Healing Practitioner and Tao Healing communicator under Master Sha?s line. Having overcome trauma, self-doubt, and disconnection, he now channels higher?dimensional light to help others heal on soul?level.
+
+**THEIR CLIENTS:**
+Individuals facing blocks in health (physical, mental, emotional, spiritual), relationships, finances, or overall life satisfaction, who feel stuck despite previous efforts.
+
+**SOLUTIONS:**
+- **Soul Healing Blessings**: 30-minute sessions (online/in-person near Harrow) to clear root-cause negative soul patterns, with guidance for self-practice.
+- **Soul Light Connection Classes**: Teaching techniques to stay aligned with soul-light and upliftment.
+- **Soul Readings**: 15?30-minute soul-history consultations to receive clarity and healing guidance from high-level light beings.
+- **Free Digital Empowerment Companion**: A self-reflection coaching tool to raise awareness and prompt action.
+
+**UNIQUE APPROACH:**
+Works as a conduit for ?higher-dimensional light? from soul/spiritual realms (via Tao Healing modalities and lineage from Master Sha). Blends channelled spiritual wisdom with self-empowerment practices.
+
+**RESULTS:**
+Clients report relief from fear, pain (emotional or physical), feeling lighter, peaceful, and empowered to take action; many describe transformative shifts in their lives.
+
+**THEIR TONE:**
+Warm, encouraging, spiritual, reflective, grounded in personal experience. Invites clients to ?taste? the transformation and start their journey from a place of light and possibility.
+</textarea>
+        <button onclick="copyToClipboard(event)" title="Click to copy your summary"
+          style="position: absolute; top: 10px; right: 10px; padding: 4px 12px; background-color: #7b65d9; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500;">
+          ? Copy
+        </button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p><strong>A reminder on how to use the assistant in case you get stuck or missed the instructions:</strong></p>
+      <p>To get the smoothest experience, just follow the assistants lead and reply naturally. If something seems off, try refreshing or reloading. This assistant is just a glimpse of what is possible; you can explore its full power by clicking the button below.</p>
+
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-top: 30px;">
+        <iframe src="https://www.loom.com/embed/1a31340fd7eb41d3bcbb15c97b1d3c17?sid=anandsoulhealer-ash" frameborder="0" allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 90%; height: 90%;">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="section" style="text-align: center;">
+      <a class="button" href="https://calendly.com/anandbhimjiyani/ai-services-for-wellnessbusiness">Discover the Potential for your Wellness Business using AI</a>
+    </div>
+  </div>
+
+  <script>
+    function copyToClipboard(event) {
+      const textArea = document.getElementById("copyText");
+      textArea.select();
+      textArea.setSelectionRange(0, 99999);
+
+      const btn = event.currentTarget;
+      try {
+        document.execCommand('copy');
+        const originalText = btn.innerText;
+        const originalBg = btn.style.backgroundColor;
+        btn.innerText = "Copied!";
+        btn.style.backgroundColor = "#4caf50";
+        setTimeout(() => {
+          btn.innerText = originalText;
+          btn.style.backgroundColor = originalBg;
+        }, 1500);
+      } catch (err) {
+        alert('Copy failed. Please try manually.');
+      }
+    }
+
+    const countdownDate = new Date("2025-08-15T12:00:00+01:00").getTime();
+    const countdownEl = document.getElementById("countdown-timer");
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      if (distance < 0) {
+        clearInterval(interval);
+        countdownEl.innerHTML = "? This demo has now expired.";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      countdownEl.innerHTML = `This page will expire in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
